@@ -1,0 +1,45 @@
+# Compiled Object files
+*.slo
+*.lo
+*.o
+
+# python cache files
+*/__pycache__/*
+*.pyc
+*.ini
+
+# Precompiled Headers
+*.gch
+*.pch
+
+# Compiled Dynamic libraries
+*.so
+*.dylib
+*.dll
+
+# Fortran module files
+*.mod
+
+# Compiled Static libraries
+*.lai
+*.la
+*.a
+*.lib
+
+# Executables
+*.exe
+*.out
+*.app
+.vscode/
+
+*.un~
+*.swo
+*.swp
+
+build/*
+build-release/*
+_deps/*
+
+.DS_Store
+*.blend
+*.blend1
