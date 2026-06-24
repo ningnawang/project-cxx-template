@@ -4,6 +4,31 @@ A starter C++ project template using [libigl](http://libigl.github.io/libigl/)
 and [Polyscope](https://polyscope.run/), wired up with CMake. Copy or fork this
 project as a starting point for a new personal project.
 
+### Setup Env for Python
+```
+conda create --name $YOUR_ENV_NAME python=3.10 -y
+conda activate $YOUR_ENV_NAME 
+python -m pip install -r requirements.txt
+```
+
+- if CGAL is needed:
+```
+brew install cgal
+```
+
+### Compile C++
+```
+mkdir build
+cd build
+cmake ..
+make -j4
+```
+
+## NOTE:
+if you use `gpytoolbox` to read mesh and convert it to UDF, please note it's a *TRIANGLE MESH* only method. It would not show errors, but it would make UDF not the way you wanted.
+
+
+
 ## Structure
 
 ```
