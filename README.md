@@ -2,7 +2,7 @@
 
 A starter C++ project template using [libigl](http://libigl.github.io/libigl/)
 and [Polyscope](https://polyscope.run/), wired up with CMake. Copy or fork this
-project as a starting point for a new personal project.
+project as a starting point for a new personal project. This template is adopted from a [python version](https://github.com/sgsellan/project-template) initiated from [Silvia Sellán](https://www.cs.columbia.edu/~silviasellan/).
 
 ### Setup Env for Python
 ```
